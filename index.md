@@ -5,13 +5,24 @@
 **Resumo: a Janela não coleta nenhum dado seu.** Tudo o que você registra fica só no seu celular.
 
 ## O que fica no celular
-Horários de jejum, protocolo, peso, copos de água, como você se sentiu, respostas do questionário inicial
-(objetivo, experiência e as perguntas de segurança) e preferências de avisos. Esses dados:
+Horários de jejum, protocolo, peso, medida da cintura, fotos de progresso, copos de água, como você se sentiu,
+respostas do questionário inicial (objetivo, experiência e as perguntas de segurança) e preferências de avisos. Esses dados:
 - ficam guardados apenas no armazenamento do app neste aparelho;
 - não são enviados a nenhum servidor nosso nem de terceiros. O app não usa a internet para os seus dados: a permissão
   de internet existe só porque as bibliotecas da Google Play (compras e avaliação na loja) falam com a própria Play;
 - não vão para o backup automático do Google;
 - são apagados ao desinstalar o app ou ao tocar em Ajustes → Apagar todos os dados.
+
+## Fotos de progresso
+As fotos que você escolhe são reduzidas e guardadas na pasta privada do app, sem os dados de local e aparelho da foto
+original. Nenhum outro app tem acesso a elas, elas não vão na cópia de segurança e são apagadas ao desinstalar o app
+ou ao tocar em Apagar foto / Apagar todos os dados.
+
+## Health Connect
+Se você ligar "Peso do Health Connect" (Android 14 ou mais novo), o app pede permissão para **ler o peso**
+(READ_WEIGHT) que a sua balança ou outro app gravou no Health Connect. O app só lê o peso, para mostrar em
+Progresso; não grava nada no Health Connect, não lê nenhum outro dado e não envia o peso a lugar nenhum. Dá para
+desligar em Ajustes ou retirar a permissão no próprio Health Connect a qualquer momento.
 
 ## Cópia de segurança e planilha
 Se você usar "Salvar cópia de segurança" ou "Exportar planilha", o arquivo é salvo ou compartilhado **onde você escolher**
